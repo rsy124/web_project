@@ -239,4 +239,4 @@ if __name__ == "__main__":
     app.logger.info("Starting Flask development server...")
     # Listen on all interfaces (0.0.0.0) for easier testing in VMs/containers
     # Set debug=False for production!
-    app.run(debug=False, host='0.0.0.0', port=5000)
+      app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 10000)))
