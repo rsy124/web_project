@@ -1,0 +1,7 @@
+Flask
+google-generativeai
+pdfminer.six
+Pillow
+python-dotenv
+gunicorn
+#huggingface-hub
